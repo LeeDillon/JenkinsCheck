@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	stages{
-		stage(Check if git repo ecists'){
+		stage('Check if git repo exists'){
 		steps{
 			sh 'bash GitCheck.sh'
 			}
